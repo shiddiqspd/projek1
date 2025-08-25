@@ -1,0 +1,30 @@
+<footer>
+    <div class="footer-dark">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-2">
+          </div>
+         <div class="col-sm-6 col-md-3 item">
+           <h3>Kontak Kami</h3>
+           <ul>
+             <li class="a"><p>Telp : (021)-3556099<p>Email : jasatani@gmail.com</li>
+           </ul>
+           <h3 contenteditable="true">Alamat</h3>
+           <p>Jl.Pemuda 3 no.14 rt/rw 01/04, Rawamangun,Pulo Gadung,Jakarta Timur, 13220</p>
+         </div>
+         <div class="col-lg-3"></div>
+         <div class="col-sm-6 col-md-3 item">
+           <h3>Layanan</h3>
+           <ul>
+             <li><p href="Form Kritik dan Saran.html">Kritik dan Saran</p></li>
+             <li><p href="#PRIVACYPOLICY" data-toggle="modal">Help</p></li>
+           </ul>
+          </div>
+           
+       </div>
+       <p class="copyright">Jasa Tani © 2019</p>
+     </div>
+   </div>
+  </footer>
+ </div> 
+</body>
