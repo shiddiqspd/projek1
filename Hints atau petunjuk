@@ -1,0 +1,7 @@
+Petunjuk untuk Siswa (Hints)
+Cek Konsol Browser: Tekan F12 atau Right Click > Inspect > Console. 
+Jika ada pesan error berwarna merah bertuliskan "Cannot read properties of null (reading 'addEventListener')", 
+artinya ID yang kamu panggil di JavaScript tidak ditemukan di HTML.
+
+Masalah "100 + 100 = 100100": Dalam JavaScript, jika kamu menjumlahkan teks, mereka akan "berdempetan" (concatenation). 
+Kamu perlu mengubah teks tersebut menjadi angka menggunakan fungsi Number() atau parseInt().
