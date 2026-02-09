@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tantangan Debugging - BND</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; padding-top: 50px; background: #f0f2f5; }
+        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); width: 300px; }
+        input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; }
+        button { width: 100%; padding: 10px; background: #00A896; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        #hasil { margin-top: 20px; font-weight: bold; color: #0A2342; padding: 10px; background: #e6f7f5; border-radius: 5px; display: none; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h3>Simulasi Tabungan</h3>
+    <label>Saldo Awal (Rp):</label>
+    <input type="number" id="inputSaldo" placeholder="Contoh: 1000000">
+    
+    <label>Bunga (Rp):</label>
+    <input type="number" id="inputBunga" placeholder="Contoh: 50000">
+    
+    <button id="btnHitung">Hitung Total</button>
+
+    <div id="boxHasil">
+        Total Tabungan Anda: <span id="textTotal">0</span>
+    </div>
+</div>
+
+<script>
+    // --- AREA ERROR UNTUK DIPERBAIKI SISWA ---
+
+    document.getElementById("btn-hitung").addEventListener("click", function() {
+        // Error 1: ID di atas tidak cocok dengan ID di HTML
+        
+        let saldo = document.getElementById("inputSaldo").value;
+        let bunga = document.getElementById("inputBunga").value;
+
+        // Error 2: Secara default, nilai dari input adalah STRING. 
+        // Jika saldo 1000 dan bunga 500, hasilnya malah jadi 1000500.
+        let total = saldo + bunga; 
+
+        // Menampilkan hasil
+        document.getElementById("boxHasil").style.display = "block";
+        document.getElementById("textTotal").innerText = total;
+    });
+
+    // --- SELESAI AREA ERROR ---
+</script>
+
+</body>
+</html>
