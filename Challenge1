@@ -1,0 +1,8 @@
+🛠 Tantangan Coding: Perbaiki Kalkulator Bank!
+Skenario: Tim IT Bank Nusantara Digital baru saja membuat fitur kalkulator simulasi tabungan. Namun, saat tombol di klik, hasilnya tidak muncul atau justru ngaco (salah hitung).
+
+Tugas Siswa:
+
+Temukan kenapa tombol "Hitung" tidak memberikan hasil apa pun.
+
+Perbaiki logika perhitungan agar hasil penjumlahannya benar (bukan sekadar menggabungkan teks).
